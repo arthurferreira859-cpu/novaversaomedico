@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/create-sale", "destination": "/api/create-sale" },
+    { "source": "/api/check-status", "destination": "/api/check-status" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
